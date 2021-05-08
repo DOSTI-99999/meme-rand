@@ -8,13 +8,6 @@
     android:background="@color/black">
 
 
-    <ProgressBar
-        android:id="@+id/myProgress"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="@+id/myMeme"
-        app:layout_constraintTop_toTopOf="@id/myMeme" />
-
     <ImageView
         android:id="@+id/myMeme"
         android:layout_width="0dp"
@@ -26,6 +19,13 @@
         tools:srcCompat="@tools:sample/avatars"
         android:background="@color/black"
         />
+
+    <ProgressBar
+        android:id="@+id/myProgress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/myMeme"
+        app:layout_constraintTop_toTopOf="@id/myMeme" />
 
     <Button
         android:id="@+id/button"

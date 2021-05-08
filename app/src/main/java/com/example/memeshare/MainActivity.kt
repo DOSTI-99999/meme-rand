@@ -1,11 +1,16 @@
 package com.example.memeshare
 import android.content.Intent
+import android.graphics.drawable.Drawable
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import com.android.volley.Request
 import com.android.volley.toolbox.JsonObjectRequest
 import com.bumptech.glide.Glide
+import com.bumptech.glide.load.DataSource
+import com.bumptech.glide.load.engine.GlideException
+import com.bumptech.glide.request.RequestListener
+import com.bumptech.glide.request.target.Target
 import com.google.android.material.snackbar.Snackbar
 import kotlinx.android.synthetic.main.activity_main.*
 
@@ -23,10 +28,10 @@ class MainActivity : AppCompatActivity() {
 
     fun loadMeme(view: View) {
 
-
+        // --- use this when using Progress bar from xml
         myProgress.visibility = View.VISIBLE
 
-        //this code will execute when next button is clicked
+        // this code will execute when next button is clicked
         // Instantiate the RequestQueue
 
         // --> use this when not using singleton pattern
@@ -43,7 +48,31 @@ class MainActivity : AppCompatActivity() {
             { response ->
                 urltobepassed = response.getString("url")
 
-                Glide.with(this).load(urltobepassed).into(myMeme)
+                Glide.with(this).load(urltobepassed).listener(object: RequestListener<Drawable>{
+
+                    override fun onLoadFailed(
+                        e: GlideException?,
+                        model: Any?,
+                        target: Target<Drawable>?,
+                        isFirstResource: Boolean
+                    ): Boolean {
+                        myProgress.visibility = View.GONE
+                        return false
+                    }
+
+                    override fun onResourceReady(
+                        resource: Drawable?,
+                        model: Any?,
+                        target: Target<Drawable>?,
+                        dataSource: DataSource?,
+                        isFirstResource: Boolean
+                    ): Boolean {
+                        myProgress.visibility = View.GONE
+                        return false
+                    }
+
+
+                }).into(myMeme)
                 // Display the first 500 characters of the response string.
                 //textView.text = "Response is: ${response.substring(0, 500)}"
             },
@@ -59,11 +88,10 @@ class MainActivity : AppCompatActivity() {
 
         // Add the request to the RequestQueue.
 
-        //queue.add(JsonObjectRequest)
+        // queue.add(JsonObjectRequest)
 
         MySingleton.getInstance(this).addToRequestQueue(JsonObjectRequest)
 
-        myProgress.visibility = View.GONE
     }
 
     fun shareMeme(view: View) {
