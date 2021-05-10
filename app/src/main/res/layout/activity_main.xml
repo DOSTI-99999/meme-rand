@@ -4,21 +4,22 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:background="@color/black">
-
+    android:background="@color/black"
+    tools:context=".MainActivity">
 
     <ImageView
+        android:contentDescription="@string/thememe"
         android:id="@+id/myMeme"
         android:layout_width="0dp"
         android:layout_height="0dp"
+        android:background="@color/black"
         app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:srcCompat="@tools:sample/avatars"
-        android:background="@color/black"
-        />
+        app:layout_constraintVertical_bias="0.0"
+        tools:srcCompat="@tools:sample/avatars" />
 
     <ProgressBar
         android:id="@+id/myProgress"
@@ -31,10 +32,10 @@
         android:id="@+id/button"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:onClick="shareMeme"
-        android:padding="20dp"
-        android:text="@string/share"
-        android:layout_marginEnd="15dp"
+        android:layout_marginEnd="10dp"
+        android:onClick="prevMeme"
+        android:padding="15dp"
+        android:text="@string/button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/guideline2"
         app:layout_constraintHorizontal_bias="0.0"
@@ -43,21 +44,42 @@
     <Button
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:padding="20dp"
+        android:onClick="nextMeme"
+        android:padding="15dp"
         android:text="@string/next"
+        android:layout_marginLeft="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/guideline2"
-        android:layout_marginLeft="15dp"
-        android:onClick="nextMeme"/>
+        app:layout_constraintStart_toStartOf="@+id/guideline3" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        app:layout_constraintGuide_percent="0.5"
-        />
+        app:layout_constraintGuide_percent="0.333" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="20dp"
+        app:layout_constraintGuide_percent="0.666"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/share"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/guideline3"
+        app:layout_constraintLeft_toRightOf="@id/guideline2"
+        android:padding="15dp"
+        android:onClick="shareMeme"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"/>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
