@@ -96,7 +96,7 @@ class MainActivity : AppCompatActivity() {
             putExtra(
 
                 Intent.EXTRA_TEXT,
-                "Ye main kar leta hu, tu reddit ki meme dekhle: $"
+                "Ye main kar leta hu, tu reddit ki meme dekhle: $urlnow"
             )
             type = "text/plain"
         }

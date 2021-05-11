@@ -10,3 +10,4 @@ A Three Dot Menu, Download Button, Info Activity, Info Menu Button, and a Previo
 <br>
 The app basically uses Volley API to request response from http and Sends a JSONObjectRequest to the <a href="https://github.com/D3vd/Meme_Api">Meme API</a>
 to get data and reads the "url" attribute from to send it to ImageView using <a href="https://github.com/bumptech/glide">Glide</a> and kotlinx library.
+
