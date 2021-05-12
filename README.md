@@ -1,7 +1,7 @@
 # meme-rand
 A small app that provides the user some random Memes from reddit and lets them share it.
 
-Download APK (v1.2):
+Download APK:
 <a href="https://drive.google.com/drive/folders/1bd00WpQWj2MC41BG9evqF-LK94OzMN7j?usp=sharing">Click Here</a><br>
 <br>
 --> UI Elements include: the ConstraintLayout, two Buttons, an ImageView, a Snackbar, the app icon, a progress bar.<br>
