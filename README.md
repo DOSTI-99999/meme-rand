@@ -15,5 +15,5 @@ File Name Improvements, Toast on Download and Avoid the memes which the user has
 <br>
 
 The app basically uses Volley API to request response from http and Sends a JSONObjectRequest to the <a href="https://github.com/D3vd/Meme_Api">Meme API</a>
-to get data and reads the "url" attribute from to send it to ImageView using <a href="https://github.com/bumptech/glide">Glide</a> and kotlinx library.
+to get data and reads the "url" attribute from it to send it to ImageView using <a href="https://github.com/bumptech/glide">Glide</a> and kotlinx library.
 
