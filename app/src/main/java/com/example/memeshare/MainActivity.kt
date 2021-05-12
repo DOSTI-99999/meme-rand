@@ -22,6 +22,8 @@ import com.bumptech.glide.request.RequestListener
 import com.bumptech.glide.request.target.Target
 import com.google.android.material.snackbar.Snackbar
 import kotlinx.android.synthetic.main.activity_main.*
+import java.time.LocalDateTime
+import java.time.format.DateTimeFormatter
 
 class MainActivity : AppCompatActivity() {
 
@@ -34,6 +36,17 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         var thyview = View(this)
         loadMeme(View(this))
+    }
+
+    private fun extfind(urltbp : String) : String? {
+        var ext = ""
+        for (i in urltbp.length-1 downTo 0){
+            if (urltbp[i] == '.') {
+                ext = urltbp.slice(i..urltbp.length-1)
+                break
+            }
+        }
+        return ext
     }
 
     private fun loadMeme(view: View): Unit? {
@@ -62,8 +75,10 @@ class MainActivity : AppCompatActivity() {
 
             { response ->
                 urltobepassed = response.getString("url")
-                urlarr.add(urltobepassed)
-                gliderboi(prevcount)
+                if (urltobepassed !in urlarr) {
+                    urlarr.add(urltobepassed)
+                    gliderboi(prevcount)
+                }
                 // Display the first 500 characters of the response string.
                 //textView.text = "Response is: ${response.substring(0, 500)}"
             },
@@ -147,6 +162,8 @@ class MainActivity : AppCompatActivity() {
             // User chose the "Favorite" action (the Download Button)
             // here
 
+
+            // Checking if User has given the storage permission
             if (ContextCompat.checkSelfPermission(
                 this,
                 android.Manifest.permission.WRITE_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED)
@@ -161,17 +178,27 @@ class MainActivity : AppCompatActivity() {
                 }
             }
 
-            //The DownloadManager How To
-            val img_uri = Uri.parse(urlarr[urlarr.size-prevcount-1])
+            // Adjusting the File name
+            val cur_url = urlarr[urlarr.size-prevcount-1]
+            val time_raw = LocalDateTime.now()
+            val time_formatter = DateTimeFormatter.ofPattern("dd-MM-yyyy_HH-mm-ss")  // Can also use SSS, ie, milliseconds
+            val time_formatted = time_raw.format(time_formatter)
+            var mname = "meme_" + "$time_formatted"
+            mname = mname + cur_url?.let { extfind(it) }
+
+            //Using the DownloadManager
+            val img_uri = Uri.parse(cur_url)
             val request = DownloadManager.Request(img_uri)
             val dmanager : DownloadManager = getSystemService(Context.DOWNLOAD_SERVICE) as DownloadManager
             request.setAllowedNetworkTypes(DownloadManager.Request.NETWORK_WIFI or DownloadManager.Request.NETWORK_MOBILE)
             request.setTitle("A Virtual Upvote")
             request.setDescription("The Meme you requested")
             request.setNotificationVisibility(DownloadManager.Request.VISIBILITY_VISIBLE_NOTIFY_COMPLETED)
-            request.setDestinationInExternalPublicDir(Environment.DIRECTORY_DOWNLOADS, "MyMeme.jpg")
+            request.setDestinationInExternalPublicDir(Environment.DIRECTORY_DOWNLOADS, mname)
             request.setMimeType("*/*")
-            val myDownloadId = dmanager.enqueue(request)
+            dmanager.enqueue(request)
+
+            Toast.makeText(this, "Download Started", Toast.LENGTH_SHORT).show()
 
             true
         }
@@ -184,6 +211,9 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun gliderboi(prevcount: Int){
+        // this function downloads a certain link from urlarr into myMeme ImageView
+        // and uses myProgress to show the loading
+        // takes in the prevcount : zero if it's the last loaded Meme in the list
         Glide.with(this).load(urlarr[urlarr.size - prevcount - 1])
             .listener(object : RequestListener<Drawable> {
 
