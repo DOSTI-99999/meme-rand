@@ -1,0 +1,225 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/makemake/AndroidStudioProjects/MemeShare/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /home/makemake/AndroidStudioProjects/MemeShare/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /home/makemake/AndroidStudioProjects/MemeShare/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /home/makemake/AndroidStudioProjects/MemeShare/app/src/main/AndroidManifest.xml:2:1-30:12
+MERGED from [androidx.core:core-ktx:1.3.2] /home/makemake/.gradle/caches/transforms-3/e7d6a5524d886117a0cc12f5f2be8b7b/transformed/jetified-core-ktx-1.3.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.material:material:1.3.0] /home/makemake/.gradle/caches/transforms-3/eb03492b23ac9452095e292dac30eed1/transformed/material-1.3.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /home/makemake/.gradle/caches/transforms-3/306199917d58f3ea8c34195ceb9b5c89/transformed/constraintlayout-2.0.4/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] /home/makemake/.gradle/caches/transforms-3/caa1de66cc980472d3ce4b7d65113dca/transformed/appcompat-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.volley:volley:1.2.0] /home/makemake/.gradle/caches/transforms-3/2170b13c6d1d2dda740b65f624d83ca7/transformed/jetified-volley-1.2.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /home/makemake/.gradle/caches/transforms-3/8b7a12003460e7347ea183118e8c159e/transformed/jetified-glide-4.12.0/AndroidManifest.xml:2:1-12:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/makemake/.gradle/caches/transforms-3/3d55766a2f389bee92e83930961fc5c5/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/makemake/.gradle/caches/transforms-3/3e3b6aef5fe700bb20a839648988b134/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/makemake/.gradle/caches/transforms-3/bf13fe391fa2d67a0bf0dec1714c5ed8/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/makemake/.gradle/caches/transforms-3/5a60c3b7b17c30ffe1b1ecb10689af73/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/makemake/.gradle/caches/transforms-3/cad54d77e6535dc19fac1627c7021e58/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.1.0] /home/makemake/.gradle/caches/transforms-3/899484c80dd4f48919bc543b8e480d19/transformed/fragment-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /home/makemake/.gradle/caches/transforms-3/f79c00fd3391804ea7321c503f81aad8/transformed/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/makemake/.gradle/caches/transforms-3/bed6c757934e46898c1dbc1002c03295/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/makemake/.gradle/caches/transforms-3/58df662f6517857fb115961d1ac151df/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.2.0] /home/makemake/.gradle/caches/transforms-3/f7870b1791db248b02e4dfa34f8ce054/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/makemake/.gradle/caches/transforms-3/16fdbba60481499dc6f94f5de6ab5883/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/makemake/.gradle/caches/transforms-3/fb53e7cd998b7e8b3bca46fc8f3f4f5b/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.loader:loader:1.0.0] /home/makemake/.gradle/caches/transforms-3/e8eb93b2ef2f610d0b7b71bc6adb110f/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] /home/makemake/.gradle/caches/transforms-3/2f8f0252477a0d323166c435cd871c48/transformed/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/makemake/.gradle/caches/transforms-3/8f4806212034a985565e831071797dc5/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] /home/makemake/.gradle/caches/transforms-3/c08cfad603f8d16d32e01280ca8c8dd5/transformed/jetified-activity-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/makemake/.gradle/caches/transforms-3/1cb3eceaa5ced147463725c5068a592a/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/makemake/.gradle/caches/transforms-3/8c4cfb0f1ff2d4bd0dc7963901bda318/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /home/makemake/.gradle/caches/transforms-3/97d8c0b632dc0f792c12b5c6506f9152/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/makemake/.gradle/caches/transforms-3/802c66a565c1911b2072c78be3ca12ec/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/makemake/.gradle/caches/transforms-3/f4e10aa910b039d47ac59e6035d5541c/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.3.2] /home/makemake/.gradle/caches/transforms-3/ec1c257e646617cea8e0b4791c547108/transformed/core-1.3.2/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/makemake/.gradle/caches/transforms-3/a14d7f14ad5731a71e9cacde8af57820/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /home/makemake/.gradle/caches/transforms-3/53213c0b81474f1bfbef7f6a416a0a5a/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /home/makemake/.gradle/caches/transforms-3/850568081b6ef6edefbe5ccdf9480614/transformed/jetified-gifdecoder-4.12.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] /home/makemake/.gradle/caches/transforms-3/1ab92bde5fd1b2a295a296f501e4edf2/transformed/exifinterface-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/makemake/.gradle/caches/transforms-3/8a2c60b6e18a3c401f04fbccd35ffd60/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/makemake/.gradle/caches/transforms-3/a698f9b08a81808ed65fb83ea9fc7579/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/makemake/.gradle/caches/transforms-3/f27fc34e5d965f92088802bdafc2822c/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/makemake/.gradle/caches/transforms-3/c385676563a2a5f023f564013dec6477/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/makemake/.gradle/caches/transforms-3/84c4f6f0c7cd32c7dd0a29bc739be42f/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/makemake/.gradle/caches/transforms-3/d07194a53ad0297c74a3f76f93364ff4/transformed/lifecycle-runtime-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/makemake/.gradle/caches/transforms-3/6390b83754c1255960eec825d1c728b6/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/makemake/.gradle/caches/transforms-3/fa4e1be80b6b7aa33ec1bb0758322d81/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/makemake/.gradle/caches/transforms-3/ea4d9abdbbb8dc22b43b597ac06fabeb/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/makemake/.gradle/caches/transforms-3/b43841203187158085b8081485c7c705/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/makemake/.gradle/caches/transforms-3/ef50a6e64347d89be04b69d08d479c40/transformed/core-runtime-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/makemake/.gradle/caches/transforms-3/22d61dd3e57496d49a53e09924d90a5b/transformed/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /home/makemake/AndroidStudioProjects/MemeShare/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /home/makemake/AndroidStudioProjects/MemeShare/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /home/makemake/AndroidStudioProjects/MemeShare/app/src/main/AndroidManifest.xml:2:1-30:12
+	package
+		ADDED from /home/makemake/AndroidStudioProjects/MemeShare/app/src/main/AndroidManifest.xml:3:5-36
+		INJECTED from /home/makemake/AndroidStudioProjects/MemeShare/app/src/main/AndroidManifest.xml
+		INJECTED from /home/makemake/AndroidStudioProjects/MemeShare/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/makemake/AndroidStudioProjects/MemeShare/app/src/main/AndroidManifest.xml
+		ADDED from /home/makemake/AndroidStudioProjects/MemeShare/app/src/main/AndroidManifest.xml:2:1-30:12
+		INJECTED from /home/makemake/AndroidStudioProjects/MemeShare/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/makemake/AndroidStudioProjects/MemeShare/app/src/main/AndroidManifest.xml
+		ADDED from /home/makemake/AndroidStudioProjects/MemeShare/app/src/main/AndroidManifest.xml:2:1-30:12
+		INJECTED from /home/makemake/AndroidStudioProjects/MemeShare/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/makemake/AndroidStudioProjects/MemeShare/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /home/makemake/AndroidStudioProjects/MemeShare/app/src/main/AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from /home/makemake/AndroidStudioProjects/MemeShare/app/src/main/AndroidManifest.xml:5:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/makemake/AndroidStudioProjects/MemeShare/app/src/main/AndroidManifest.xml:6:5-81
+	android:name
+		ADDED from /home/makemake/AndroidStudioProjects/MemeShare/app/src/main/AndroidManifest.xml:6:22-78
+application
+ADDED from /home/makemake/AndroidStudioProjects/MemeShare/app/src/main/AndroidManifest.xml:8:5-28:19
+MERGED from [com.google.android.material:material:1.3.0] /home/makemake/.gradle/caches/transforms-3/eb03492b23ac9452095e292dac30eed1/transformed/material-1.3.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.3.0] /home/makemake/.gradle/caches/transforms-3/eb03492b23ac9452095e292dac30eed1/transformed/material-1.3.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /home/makemake/.gradle/caches/transforms-3/306199917d58f3ea8c34195ceb9b5c89/transformed/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /home/makemake/.gradle/caches/transforms-3/306199917d58f3ea8c34195ceb9b5c89/transformed/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /home/makemake/.gradle/caches/transforms-3/8b7a12003460e7347ea183118e8c159e/transformed/jetified-glide-4.12.0/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /home/makemake/.gradle/caches/transforms-3/8b7a12003460e7347ea183118e8c159e/transformed/jetified-glide-4.12.0/AndroidManifest.xml:10:5-20
+MERGED from [androidx.core:core:1.3.2] /home/makemake/.gradle/caches/transforms-3/ec1c257e646617cea8e0b4791c547108/transformed/core-1.3.2/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.2] /home/makemake/.gradle/caches/transforms-3/ec1c257e646617cea8e0b4791c547108/transformed/core-1.3.2/AndroidManifest.xml:24:5-89
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /home/makemake/.gradle/caches/transforms-3/850568081b6ef6edefbe5ccdf9480614/transformed/jetified-gifdecoder-4.12.0/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /home/makemake/.gradle/caches/transforms-3/850568081b6ef6edefbe5ccdf9480614/transformed/jetified-gifdecoder-4.12.0/AndroidManifest.xml:9:5-20
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/makemake/.gradle/caches/transforms-3/c385676563a2a5f023f564013dec6477/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/makemake/.gradle/caches/transforms-3/c385676563a2a5f023f564013dec6477/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.3.2] /home/makemake/.gradle/caches/transforms-3/ec1c257e646617cea8e0b4791c547108/transformed/core-1.3.2/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /home/makemake/AndroidStudioProjects/MemeShare/app/src/main/AndroidManifest.xml:13:9-35
+	android:label
+		ADDED from /home/makemake/AndroidStudioProjects/MemeShare/app/src/main/AndroidManifest.xml:11:9-41
+	android:roundIcon
+		ADDED from /home/makemake/AndroidStudioProjects/MemeShare/app/src/main/AndroidManifest.xml:12:9-56
+	android:icon
+		ADDED from /home/makemake/AndroidStudioProjects/MemeShare/app/src/main/AndroidManifest.xml:10:9-38
+	android:allowBackup
+		ADDED from /home/makemake/AndroidStudioProjects/MemeShare/app/src/main/AndroidManifest.xml:9:9-35
+	android:theme
+		ADDED from /home/makemake/AndroidStudioProjects/MemeShare/app/src/main/AndroidManifest.xml:14:9-47
+activity#com.example.memeshare.MainActivity
+ADDED from /home/makemake/AndroidStudioProjects/MemeShare/app/src/main/AndroidManifest.xml:17:9-25:20
+	android:exported
+		ADDED from /home/makemake/AndroidStudioProjects/MemeShare/app/src/main/AndroidManifest.xml:19:13-36
+	android:name
+		ADDED from /home/makemake/AndroidStudioProjects/MemeShare/app/src/main/AndroidManifest.xml:18:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/makemake/AndroidStudioProjects/MemeShare/app/src/main/AndroidManifest.xml:20:13-24:29
+action#android.intent.action.MAIN
+ADDED from /home/makemake/AndroidStudioProjects/MemeShare/app/src/main/AndroidManifest.xml:21:17-69
+	android:name
+		ADDED from /home/makemake/AndroidStudioProjects/MemeShare/app/src/main/AndroidManifest.xml:21:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/makemake/AndroidStudioProjects/MemeShare/app/src/main/AndroidManifest.xml:23:17-77
+	android:name
+		ADDED from /home/makemake/AndroidStudioProjects/MemeShare/app/src/main/AndroidManifest.xml:23:27-74
+activity#com.example.memeshare.InfoActivity
+ADDED from /home/makemake/AndroidStudioProjects/MemeShare/app/src/main/AndroidManifest.xml:27:9-59
+	android:name
+		ADDED from /home/makemake/AndroidStudioProjects/MemeShare/app/src/main/AndroidManifest.xml:27:19-47
+uses-sdk
+INJECTED from /home/makemake/AndroidStudioProjects/MemeShare/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/makemake/AndroidStudioProjects/MemeShare/app/src/main/AndroidManifest.xml
+INJECTED from /home/makemake/AndroidStudioProjects/MemeShare/app/src/main/AndroidManifest.xml
+MERGED from [androidx.core:core-ktx:1.3.2] /home/makemake/.gradle/caches/transforms-3/e7d6a5524d886117a0cc12f5f2be8b7b/transformed/jetified-core-ktx-1.3.2/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.3.2] /home/makemake/.gradle/caches/transforms-3/e7d6a5524d886117a0cc12f5f2be8b7b/transformed/jetified-core-ktx-1.3.2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.material:material:1.3.0] /home/makemake/.gradle/caches/transforms-3/eb03492b23ac9452095e292dac30eed1/transformed/material-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.3.0] /home/makemake/.gradle/caches/transforms-3/eb03492b23ac9452095e292dac30eed1/transformed/material-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /home/makemake/.gradle/caches/transforms-3/306199917d58f3ea8c34195ceb9b5c89/transformed/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /home/makemake/.gradle/caches/transforms-3/306199917d58f3ea8c34195ceb9b5c89/transformed/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /home/makemake/.gradle/caches/transforms-3/caa1de66cc980472d3ce4b7d65113dca/transformed/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /home/makemake/.gradle/caches/transforms-3/caa1de66cc980472d3ce4b7d65113dca/transformed/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.android.volley:volley:1.2.0] /home/makemake/.gradle/caches/transforms-3/2170b13c6d1d2dda740b65f624d83ca7/transformed/jetified-volley-1.2.0/AndroidManifest.xml:5:5-43
+MERGED from [com.android.volley:volley:1.2.0] /home/makemake/.gradle/caches/transforms-3/2170b13c6d1d2dda740b65f624d83ca7/transformed/jetified-volley-1.2.0/AndroidManifest.xml:5:5-43
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /home/makemake/.gradle/caches/transforms-3/8b7a12003460e7347ea183118e8c159e/transformed/jetified-glide-4.12.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /home/makemake/.gradle/caches/transforms-3/8b7a12003460e7347ea183118e8c159e/transformed/jetified-glide-4.12.0/AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/makemake/.gradle/caches/transforms-3/3d55766a2f389bee92e83930961fc5c5/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/makemake/.gradle/caches/transforms-3/3d55766a2f389bee92e83930961fc5c5/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/makemake/.gradle/caches/transforms-3/3e3b6aef5fe700bb20a839648988b134/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/makemake/.gradle/caches/transforms-3/3e3b6aef5fe700bb20a839648988b134/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/makemake/.gradle/caches/transforms-3/bf13fe391fa2d67a0bf0dec1714c5ed8/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/makemake/.gradle/caches/transforms-3/bf13fe391fa2d67a0bf0dec1714c5ed8/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/makemake/.gradle/caches/transforms-3/5a60c3b7b17c30ffe1b1ecb10689af73/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/makemake/.gradle/caches/transforms-3/5a60c3b7b17c30ffe1b1ecb10689af73/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/makemake/.gradle/caches/transforms-3/cad54d77e6535dc19fac1627c7021e58/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/makemake/.gradle/caches/transforms-3/cad54d77e6535dc19fac1627c7021e58/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /home/makemake/.gradle/caches/transforms-3/899484c80dd4f48919bc543b8e480d19/transformed/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] /home/makemake/.gradle/caches/transforms-3/899484c80dd4f48919bc543b8e480d19/transformed/fragment-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /home/makemake/.gradle/caches/transforms-3/f79c00fd3391804ea7321c503f81aad8/transformed/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /home/makemake/.gradle/caches/transforms-3/f79c00fd3391804ea7321c503f81aad8/transformed/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/makemake/.gradle/caches/transforms-3/bed6c757934e46898c1dbc1002c03295/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/makemake/.gradle/caches/transforms-3/bed6c757934e46898c1dbc1002c03295/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/makemake/.gradle/caches/transforms-3/58df662f6517857fb115961d1ac151df/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/makemake/.gradle/caches/transforms-3/58df662f6517857fb115961d1ac151df/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /home/makemake/.gradle/caches/transforms-3/f7870b1791db248b02e4dfa34f8ce054/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /home/makemake/.gradle/caches/transforms-3/f7870b1791db248b02e4dfa34f8ce054/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/makemake/.gradle/caches/transforms-3/16fdbba60481499dc6f94f5de6ab5883/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/makemake/.gradle/caches/transforms-3/16fdbba60481499dc6f94f5de6ab5883/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/makemake/.gradle/caches/transforms-3/fb53e7cd998b7e8b3bca46fc8f3f4f5b/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/makemake/.gradle/caches/transforms-3/fb53e7cd998b7e8b3bca46fc8f3f4f5b/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.0.0] /home/makemake/.gradle/caches/transforms-3/e8eb93b2ef2f610d0b7b71bc6adb110f/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/makemake/.gradle/caches/transforms-3/e8eb93b2ef2f610d0b7b71bc6adb110f/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /home/makemake/.gradle/caches/transforms-3/2f8f0252477a0d323166c435cd871c48/transformed/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /home/makemake/.gradle/caches/transforms-3/2f8f0252477a0d323166c435cd871c48/transformed/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/makemake/.gradle/caches/transforms-3/8f4806212034a985565e831071797dc5/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/makemake/.gradle/caches/transforms-3/8f4806212034a985565e831071797dc5/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] /home/makemake/.gradle/caches/transforms-3/c08cfad603f8d16d32e01280ca8c8dd5/transformed/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] /home/makemake/.gradle/caches/transforms-3/c08cfad603f8d16d32e01280ca8c8dd5/transformed/jetified-activity-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/makemake/.gradle/caches/transforms-3/1cb3eceaa5ced147463725c5068a592a/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/makemake/.gradle/caches/transforms-3/1cb3eceaa5ced147463725c5068a592a/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/makemake/.gradle/caches/transforms-3/8c4cfb0f1ff2d4bd0dc7963901bda318/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/makemake/.gradle/caches/transforms-3/8c4cfb0f1ff2d4bd0dc7963901bda318/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/makemake/.gradle/caches/transforms-3/97d8c0b632dc0f792c12b5c6506f9152/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/makemake/.gradle/caches/transforms-3/97d8c0b632dc0f792c12b5c6506f9152/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/makemake/.gradle/caches/transforms-3/802c66a565c1911b2072c78be3ca12ec/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/makemake/.gradle/caches/transforms-3/802c66a565c1911b2072c78be3ca12ec/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/makemake/.gradle/caches/transforms-3/f4e10aa910b039d47ac59e6035d5541c/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/makemake/.gradle/caches/transforms-3/f4e10aa910b039d47ac59e6035d5541c/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.3.2] /home/makemake/.gradle/caches/transforms-3/ec1c257e646617cea8e0b4791c547108/transformed/core-1.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.2] /home/makemake/.gradle/caches/transforms-3/ec1c257e646617cea8e0b4791c547108/transformed/core-1.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/makemake/.gradle/caches/transforms-3/a14d7f14ad5731a71e9cacde8af57820/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/makemake/.gradle/caches/transforms-3/a14d7f14ad5731a71e9cacde8af57820/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/makemake/.gradle/caches/transforms-3/53213c0b81474f1bfbef7f6a416a0a5a/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/makemake/.gradle/caches/transforms-3/53213c0b81474f1bfbef7f6a416a0a5a/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /home/makemake/.gradle/caches/transforms-3/850568081b6ef6edefbe5ccdf9480614/transformed/jetified-gifdecoder-4.12.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /home/makemake/.gradle/caches/transforms-3/850568081b6ef6edefbe5ccdf9480614/transformed/jetified-gifdecoder-4.12.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] /home/makemake/.gradle/caches/transforms-3/1ab92bde5fd1b2a295a296f501e4edf2/transformed/exifinterface-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] /home/makemake/.gradle/caches/transforms-3/1ab92bde5fd1b2a295a296f501e4edf2/transformed/exifinterface-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/makemake/.gradle/caches/transforms-3/8a2c60b6e18a3c401f04fbccd35ffd60/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/makemake/.gradle/caches/transforms-3/8a2c60b6e18a3c401f04fbccd35ffd60/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/makemake/.gradle/caches/transforms-3/a698f9b08a81808ed65fb83ea9fc7579/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/makemake/.gradle/caches/transforms-3/a698f9b08a81808ed65fb83ea9fc7579/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/makemake/.gradle/caches/transforms-3/f27fc34e5d965f92088802bdafc2822c/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/makemake/.gradle/caches/transforms-3/f27fc34e5d965f92088802bdafc2822c/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/makemake/.gradle/caches/transforms-3/c385676563a2a5f023f564013dec6477/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/makemake/.gradle/caches/transforms-3/c385676563a2a5f023f564013dec6477/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/makemake/.gradle/caches/transforms-3/84c4f6f0c7cd32c7dd0a29bc739be42f/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/makemake/.gradle/caches/transforms-3/84c4f6f0c7cd32c7dd0a29bc739be42f/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/makemake/.gradle/caches/transforms-3/d07194a53ad0297c74a3f76f93364ff4/transformed/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/makemake/.gradle/caches/transforms-3/d07194a53ad0297c74a3f76f93364ff4/transformed/lifecycle-runtime-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/makemake/.gradle/caches/transforms-3/6390b83754c1255960eec825d1c728b6/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/makemake/.gradle/caches/transforms-3/6390b83754c1255960eec825d1c728b6/transformed/lifecycle-viewmodel-2.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/makemake/.gradle/caches/transforms-3/fa4e1be80b6b7aa33ec1bb0758322d81/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /home/makemake/.gradle/caches/transforms-3/fa4e1be80b6b7aa33ec1bb0758322d81/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/makemake/.gradle/caches/transforms-3/ea4d9abdbbb8dc22b43b597ac06fabeb/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/makemake/.gradle/caches/transforms-3/ea4d9abdbbb8dc22b43b597ac06fabeb/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/makemake/.gradle/caches/transforms-3/b43841203187158085b8081485c7c705/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /home/makemake/.gradle/caches/transforms-3/b43841203187158085b8081485c7c705/transformed/lifecycle-livedata-core-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/makemake/.gradle/caches/transforms-3/ef50a6e64347d89be04b69d08d479c40/transformed/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /home/makemake/.gradle/caches/transforms-3/ef50a6e64347d89be04b69d08d479c40/transformed/core-runtime-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/makemake/.gradle/caches/transforms-3/22d61dd3e57496d49a53e09924d90a5b/transformed/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/makemake/.gradle/caches/transforms-3/22d61dd3e57496d49a53e09924d90a5b/transformed/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /home/makemake/AndroidStudioProjects/MemeShare/app/src/main/AndroidManifest.xml
+INJECTED from /home/makemake/AndroidStudioProjects/MemeShare/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/makemake/AndroidStudioProjects/MemeShare/app/src/main/AndroidManifest.xml
+		ADDED from /home/makemake/AndroidStudioProjects/MemeShare/app/src/main/AndroidManifest.xml
+		INJECTED from /home/makemake/AndroidStudioProjects/MemeShare/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/makemake/AndroidStudioProjects/MemeShare/app/src/main/AndroidManifest.xml
+		ADDED from /home/makemake/AndroidStudioProjects/MemeShare/app/src/main/AndroidManifest.xml
+		INJECTED from /home/makemake/AndroidStudioProjects/MemeShare/app/src/main/AndroidManifest.xml
