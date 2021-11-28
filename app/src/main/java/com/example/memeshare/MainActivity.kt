@@ -57,8 +57,8 @@ class MainActivity : AppCompatActivity() {
         // this code will execute when next button is clicked
         // Instantiate the RequestQueue
 
-        // --> use this when not using singleton pattern
-        //val queue = Volley.newRequestQueue(this)
+        // use this when not using singleton pattern
+        // val queue = Volley.newRequestQueue(this)
 
         val url = "https://meme-api.herokuapp.com/gimme"
 
@@ -191,11 +191,11 @@ class MainActivity : AppCompatActivity() {
             val request = DownloadManager.Request(img_uri)
             val dmanager : DownloadManager = getSystemService(Context.DOWNLOAD_SERVICE) as DownloadManager
             request.setAllowedNetworkTypes(DownloadManager.Request.NETWORK_WIFI or DownloadManager.Request.NETWORK_MOBILE)
-            request.setTitle("A Virtual Upvote")
-            request.setDescription("The Meme you requested")
-            request.setNotificationVisibility(DownloadManager.Request.VISIBILITY_VISIBLE_NOTIFY_COMPLETED)
-            request.setDestinationInExternalPublicDir(Environment.DIRECTORY_DOWNLOADS, mname)
-            request.setMimeType("*/*")
+                .setTitle("A Virtual Upvote")
+                .setDescription("The Meme you requested")
+                .setNotificationVisibility(DownloadManager.Request.VISIBILITY_VISIBLE_NOTIFY_COMPLETED)
+                .setDestinationInExternalPublicDir(Environment.DIRECTORY_DOWNLOADS, mname)
+                .setMimeType("*/*")
             dmanager.enqueue(request)
 
             Toast.makeText(this, "Download Started", Toast.LENGTH_SHORT).show()
